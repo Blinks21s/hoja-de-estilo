@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Zapatillas</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .product-card {
+      background-color: #222;
+      border-radius: 8px;
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      transition: transform 0.3s, box-shadow 0.3s;
+      margin-bottom: 20px;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      font-size: 1rem;
+      color: #ccc;
+      margin: 0;
+    }
+
+    .product-card .btn {
+      margin-top: 10px;
+    }
+
+    .hero-section {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<h1 class="text-center text-light my-4">Tienda de Zapatillas</h1>
+
+
+
+<div class="container">
+  <!-- Imagen del encabezado -->
+  <div class="hero-section">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREztv0K8lOWSJus-RKyZcEGlZpDOwN2soA2g&s" alt="Imagen destacada" class="img-fluid">
+    <h2>Bienvenido a Street Kicks</h2>
+    <p>Explora nuestra colección de zapatillas y encuentra el par perfecto que combine estilo, comodidad y la esencia del StreetWear Urbano.</p>
+  </div>
+
+  
+  <!-- Productos -->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="https://exclusiveshopperu.com/wp-content/uploads/2020/02/AIR-JORDAN-IV-44.jpg" alt="Zapatilla 1">
+        <h3>Air Jordan IV Black Cat</h3>
+        <p>$520.00</p>
+        <button class="btn btn-primary">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="https://exclusiveshopperu.com/wp-content/uploads/Air-Jordan-1-Low-OG-Travis-Scott-Olive-1.jpg" alt="Zapatilla 2">
+        <h3>Jordan 1 Travis Scott</h3>
+        <p>$185.00</p>
+        <button class="btn btn-primary">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="https://images.footlocker.com/is/image/EBFL2/U9060FSN_01?wid=581&hei=581&fmt=png-alpha" alt="Zapatilla 3">
+        <h3>New Balance 9060</h3>
+        <p>$150.00</p>
+        <button class="btn btn-primary">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <!-- Agrega más productos aquí -->
+    <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://images.footlocker.com/is/image/EBFL2/9060FG_01?wid=581&hei=581&fmt=png-alpha" alt="Zapatilla 3">
+          <h3>New Balance 9060</h3>
+          <p>$150.00</p>
+          <button class="btn btn-primary">Agregar al carrito</button>
+        </div>
+      </div>
+  
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
