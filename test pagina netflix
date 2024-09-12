@@ -1,87 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Modal Example</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
 
-    <div class="container mt-4">
-        <div class="row">
-                <div class="col-md-3">
-                    <img 
-                        style="margin-top: 24px; margin-bottom: 24px;" 
-                        src="https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg" 
-                        alt="Imagen 5" 
-                        class="img-fluid"
-                        data-toggle="modal"
-                        data-target="#exampleModal"
-                    >
-                </div>
-            </div>
-        </div>
+Proyecto de Fundamentos de Electromagnetismo
+Docente
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Descripción de la Imagen</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!-- Aquí puedes poner una descripción o puntuación -->
-                    <p>aadadafasdad.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-4">
-        <div class="row">
-    <div class="col-md-3">
-        <img 
-            style="margin-top: 24px; margin-bottom: 24px;" 
-            src="https://www.vocero.com.mx/wp-content/uploads/2022/10/Enola-Holmes-2-1200x1778.jpeg" 
-            alt="Imagen 6" 
-            class="img-fluid"
-            data-toggle="modal"
-            data-target="#exampleModal"
-        >
-    </div>
-</div>
-</div>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Descripción de la Imagen</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <!-- Aquí puedes poner una descripción o puntuación -->
-                <p>adasdasdad</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
+Integrantes
+•	David Alejandro Tanchiva Mendoza
+•	 F
+•	F
+•	F
+•	F
+TEMA:
+Electrónicos en la Agricultura 
+Año:
+2024
+Resume:
+Introducción:
+La agricultura, una de las actividades más antiguas y fundamentales de la humanidad, ha sufrido grandes cambios en las últimas décadas debido a los avances tecnológicos. La electrónica en particular se ha convertido en una fuerza revolucionaria en este campo, proporcionando herramientas y soluciones innovadoras que están redefiniendo la forma en que se cultiva y gestiona la producción agrícola. El uso de la tecnología electrónica en la agricultura, también conocida como "agricultura de precisión", permite a los agricultores y productores optimizar los recursos y aumentar la eficiencia y la productividad. Utilizando sensores, equipos de seguimiento y sistemas automatizados, se pueden obtener datos precisos sobre diversos aspectos del entorno agrícola, como la humedad del suelo, las condiciones climáticas y las condiciones de los cultivos. Estos avances tecnológicos no sólo ayudan a tomar decisiones informadas, sino que también promueven prácticas más sostenibles al reducir el uso excesivo de agua, fertilizantes y pesticidas. Además, los sistemas de control automatizados, como los tractores y las cosechadoras equipadas con tecnología electrónica, pueden realizar tareas con mayor precisión en menos tiempo, reduciendo la necesidad de mano de obra intensiva.
 
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+
